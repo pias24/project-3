@@ -1,0 +1,159 @@
+*{margin: 0;padding: 0;}
+.container_full{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid black;
+}
+.bg{
+    background-color: rgb(38, 32, 45);
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+.bg1{
+    background-color: rgb(11, 11, 11);
+    position: relative;
+    height: 90px;
+}
+.bg1:hover{
+    background-color: rgb(42, 11, 198);
+}
+.fixed{
+    position: fixed;
+
+}
+/*.............basic.................*/
+.header .logo>img{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    position: absolute;
+    top:10px;
+    left:20px;
+}
+.header .name{
+    position: absolute;
+    top:15px;
+    left:90px;
+}
+.header .name>h2{
+    font-family: sansation;
+    font-weight: bold;
+    color:aliceblue;
+    padding: 10px;
+}
+.header .signup{
+    position: absolute;
+    top:25px;
+    right: 15px;
+}
+/*...............header...........*/
+.bg2{
+    
+}
+.nav{
+width: 600px;
+height: 50px;
+position: absolute;
+top:15px;
+left: 250px;
+border-radius: 30px;
+}
+.nav ul{
+margin-top: 15px;
+background-color:  rgb(71, 6, 225);
+}
+.nav ul li{
+list-style-type: none;
+float:right;
+position: relative;
+}
+.nav ul li a{
+text-decoration: none;
+margin: 10px;
+padding: 10px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: beige;
+
+}
+.nav ul li a:hover{
+border-bottom: 1px solid red;
+color: rgb(29, 196, 91);
+transition: all 1 ease;
+}
+
+/* ...............nav...............*/
+.nav ul li ul{
+    padding:0;
+    list-style-type: none;
+    position: absolute;
+    left:-99999px;
+}
+.nav ul li:hover ul{
+    left:0px;
+}
+.nav ul li ul li{
+    float: none;
+    width: 200px;
+    border-bottom: 1px solid #605B5B;
+    border-top: 1px solid #2B2A2A;
+}
+.nav ul li ul li a:hover{
+    border-bottom: none;
+}
+.nav ul li ul li:first-child{
+    border-top: none;
+}
+/*............dropdown...........*/
+
+.bg3>img{
+  height: 700px;
+  width: 100%;  
+}
+/*sec..............*/
+.bg4{
+    background-color: rgb(81, 253, 133);
+    height: 400px;
+}
+.bg5{
+    background-color: rgb(18, 163, 44);
+}
+.contant>img{
+    width: 250px;
+    height: 200px;
+}
+.contant>p{
+    text-align: justify;
+}
+.contant{
+    width: 290px;
+    height: 400px;
+    float: left;
+    margin-left: 30px;
+    display: block;
+}
+.nomargin{
+   margin-left:none; 
+}
+/*.........contant........*/
+.bg10{
+    background-color: rgb(91, 72, 72);
+}
+.bg11{
+    background-color: rgb(242, 90, 113);
+    height: 400px;
+}
+
+
+footer>p{
+    text-align: center;
+    color: aliceblue;
+    padding: 6px;
+    
+}
+.bg9{
+    height: 30px;
+    background-color: #605B5B;
+}
+/*...........footer...........*/
